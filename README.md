@@ -2,7 +2,7 @@
 Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Sistemas de Informação, o projeto consiste em facilitar o processo de armazenamento,preenchimento e gestão de fichas de restauro.
 # Membros
 1. André Silvério Nº 19077  
-1. Dário Silva Nº19075        || **Scrum Master** ![](https://static.thenounproject.com/png/316802-200.png)
+1. Dário Silva Nº19075        || **Scrum Master** ![](https://static.thenounproject.com/png/316802-200.png | width=50 height=50)
 1. Fábio André Nº19088
 1. João Luís Ferreira Nº19164
 1. João Nunes Nº19989
