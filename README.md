@@ -22,7 +22,4 @@ Projeto proposto por Paulo Santos e Paulo Monteiro, docentes da disciplina Proje
 Front End | Back End | Testes Back End | Base de dados
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
-```diff
-Get Tecnicos + Done
-- this will be highlighted in red
-```
+# GetTecnicos :heavy_check_mark:
