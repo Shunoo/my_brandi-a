@@ -22,5 +22,30 @@ Projeto proposto por Paulo Santos e Paulo Monteiro, docentes da disciplina Proje
 Front End | Back End | Testes Back End | Base de dados 
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
+# my_brandi-a
+## 1-Entrar na pasta "code" pela cmd
+## 2- npm install - para instalar os módulos
+## 3- node server.js - para iniciar o servidor
+# Webservices da api
+> Basta clicar na imagem para vizualizar o que as rotas retornam
 ## Get /api/users :heavy_check_mark:
+### **recebe** 
+> Nada
+### **devolve**
+#### Sucess :white_check_mark:
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
+#### DB down :red_circle:
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
+## Get /api/users/:id
+### **recebe:**
+> id
+### **devolve:**
+#### Sucess :white_check_mark:
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated.PNG)
+#### Unsuccess :red_circle:
+##### DBDown
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/DBDown.PNG)
+##### NotAuthenticated
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/NotAuthenticated.PNG)
+##### diferentID
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated_ID_diferente.PNG)
