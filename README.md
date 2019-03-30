@@ -2,4 +2,4 @@
 Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Sistemas de Informação, o projeto consiste em facilitar o processo de armazenamento,preenchimento e gestão de fichas de restauro.
 # Membros
 1 André Silvério Nº 19077
-2 Dário Silva Nº19075 *Scrum Master*
+2 Dário Silva Nº19075 **Scrum Master**
