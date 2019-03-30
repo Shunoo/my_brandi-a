@@ -22,12 +22,3 @@ Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Si
 Front End | Back End | Testes Back End | Base de dados
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
-
-### Front-End
-1. React
-### Back-End
-1. NodeJs
-### Testes Back-End
-1. Postmman
-### Base de dados
-1. MySQL
