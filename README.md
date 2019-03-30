@@ -20,7 +20,7 @@ Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Si
 1. Tomás Colaço Nº19452
 ## Tecnologias
 Front End | Back End | Testes Back End | Base de dados
------------- | -------------
+------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
 
 ### Front-End
