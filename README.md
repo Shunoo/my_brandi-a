@@ -19,7 +19,7 @@ Projeto proposto por Paulo Santos e Paulo Monteiro, docentes da disciplina Proje
 1. Tiago Costa Nº19999
 1. Tomás Colaço Nº19452
 ## Tecnologias
-**Front End | Back End | Testes Back End | Base de dados **
+Front End | Back End | Testes Back End | Base de dados 
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
 ## Get /api/users :heavy_check_mark:
