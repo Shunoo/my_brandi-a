@@ -23,6 +23,6 @@ Front End | Back End | Testes Back End | Base de dados
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
 ```diff
-+ GETAPI
+Get Tecnicos + Done
 - this will be highlighted in red
 ```
