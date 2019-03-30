@@ -1,4 +1,5 @@
-# my_brandi-a
-# npm install ;para instalar os modulos
-# npm run dev ;para iniciar front end e back end servers 
-<img src="https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG" data-canonical-src="https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG" />
+# Brandi-2018-2019-Turma-A
+Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Sistemas de Informação, o projeto consiste em facilitar o processo de armazenamento,preenchimento e gestão de fichas de restauro.
+# Membros
+1-André Silvério Nº 19077
+2-Dário Silva Nº19075 *Scrum Master*
