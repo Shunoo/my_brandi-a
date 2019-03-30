@@ -1,5 +1,5 @@
 # Brandi-2018-2019-Turma-A
-Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Sistemas de Informação, o projeto consiste em facilitar o processo de armazenamento,preenchimento e gestão de fichas de restauro.
+Projeto proposto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Sistemas de Informação, o projeto consiste em facilitar o processo de armazenamento,preenchimento e gestão de fichas de restauro.
 ## Membros
 1. André Silvério Nº 19077  
 1. Dário Silva Nº19075        || **Scrum Master**  :crown:
@@ -22,3 +22,7 @@ Projeto por Paulo Santos e Paulo Monteiro, docentes da disciplina Projecto de Si
 Front End | Back End | Testes Back End | Base de dados
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
+```diff
++ GETAPI
+- this will be highlighted in red
+```
