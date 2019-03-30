@@ -22,7 +22,5 @@ Projeto proposto por Paulo Santos e Paulo Monteiro, docentes da disciplina Proje
 Front End | Back End | Testes Back End | Base de dados
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
-# GetTecnicos :heavy_check_mark:
-
-# Webservices da api
-> Basta clicar na imagem para vizualizar o que as rotas retornam
+## Get /api/users :heavy_check_mark:
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
