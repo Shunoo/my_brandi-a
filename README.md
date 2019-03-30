@@ -23,3 +23,6 @@ Front End | Back End | Testes Back End | Base de dados
 ------------ | ------------- | ------------- | -------------
 React | Nodejs | Postman | MySQL |
 # GetTecnicos :heavy_check_mark:
+
+# Webservices da api
+> Basta clicar na imagem para vizualizar o que as rotas retornam
