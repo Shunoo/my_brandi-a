@@ -34,7 +34,7 @@ React | Nodejs | Postman | MySQL |
 ### **devolve**
 #### Sucess :white_check_mark:
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
-#### DB down :red_circle:
+#### DB down :x:
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
 ## Get /api/users/:id
 ### **recebe:**
@@ -42,7 +42,7 @@ React | Nodejs | Postman | MySQL |
 ### **devolve:**
 #### Sucess :white_check_mark:
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated.PNG)
-#### Unsuccess :red_circle:
+#### Unsuccess :x:
 ##### DBDown
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/DBDown.PNG)
 ##### NotAuthenticated
