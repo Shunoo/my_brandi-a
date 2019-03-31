@@ -1,7 +1,7 @@
 # A collapsible section with markdown
 <details>
   
-  <summary> Get /api/users :heavy_check_mark: </summary>
+  <summary> **Get /api/users** :heavy_check_mark: </summary>
   
   ## Get /api/users :heavy_check_mark:
   ### **recebe** 
