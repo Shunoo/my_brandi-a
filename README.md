@@ -4,6 +4,7 @@
 ## 3- node server.js - para iniciar o servidor
 # Webservices da api
 > Basta clicar na imagem para vizualizar o que as rotas retornam
+## Utilizadores
 <details>
   
   <summary> Get /api/users :heavy_check_mark: </summary>
@@ -88,6 +89,7 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/DuplicateInputs.PNG)
   
  </details>
+ ## Tecnicos
  <details> 
     
   <summary> Get /api/tecnicos :heavy_check_mark: </summary>
@@ -119,4 +121,43 @@
   ##### No Token
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/NoToken.PNG)
 
+</details>
+<details>
+
+  <summary> Post /api/tecnicos/:id/edit :heavy_check_mark:</summary>
+    
+  ### **recebe**
+  > nome , habilitacoes , nivelProfissional
+  ### **devolve**
+  #### Sucess :white_check_mark:
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/Update.PNG)
+  #### Unsucess :x:
+  ##### Erro Campo
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/erro%20campo.PNG)
+  ##### DB Down
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/DBDown.PNG)
+  ##### Not Authenticated
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/NotAuthenticated.PNG)
+   
+  </details>
+<details>
+ 
+  <summary> Post /api/tecnicos/create :heavy_check_mark:</summary>
+   
+  ### **recebe**
+  > nome , habilitacoes , nivelProfissional , userFK
+  ### **devolve**
+  #### Sucess :white_check_mark:
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/Sucess.PNG)
+  #### Unsucess :x:
+  ##### Field Error
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/FieldError.PNG)
+  ##### No Token
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/NoToken.PNG)
+  ##### FK Error
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/FKError.PNG)
+  ##### DB Down
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/DBDown.PNG)
+  
    </details>
+   
