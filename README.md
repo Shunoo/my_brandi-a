@@ -13,9 +13,11 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
   
  </details>
-
-## Get /api/users/:id
-### **recebe:**
+ 
+<details>
+  
+  <summary> ## Get /api/users/:id </summary>
+    ### **recebe:**
 > id
 ### **devolve:**
 #### Sucess :white_check_mark:
@@ -27,7 +29,13 @@
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/NotAuthenticated.PNG)
 ##### diferentID
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated_ID_diferente.PNG)
-## Post /auth/login :heavy_check_mark:
+
+ </details>
+
+<details>
+  
+  <summary>  ## Post /auth/login :heavy_check_mark: </summary>
+ 
 ### **recebe**
 >id
 ### **devolve**
@@ -38,7 +46,15 @@
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/LoginNotValid.PNG)
 ##### DB Down
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/NoDatabaseConnection.PNG)
-## Post /auth/register :heavy_check_mark:
+
+</details>
+
+<details>
+  
+  <summary> ## Post /auth/register :heavy_check_mark: </summary>
+ 
+  
+
 ### **recebe**
 > login,password,email,roleFK
 ### **devolve**
@@ -53,7 +69,14 @@
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_NoPermissions.PNG)
 ##### DB Down
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/NoDatabaseConnection.PNG)
-## Post /api/users/:id/edit :heavy_check_mark:
+ 
+ </details>
+ 
+<details> 
+    
+  <summary> ## Post /api/users/:id/edit :heavy_check_mark: </summary>
+  
+  
 ### **recebe**
 >id,login,email,roleFK
 ### **devolve**
@@ -66,7 +89,15 @@
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/NotAuthenticated.PNG)
 ##### Duplicate Inputs
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/DuplicateInputs.PNG)
-## Get /api/tecnicos :heavy_check_mark:
+  
+ </details>
+ 
+ <details> 
+    
+  <summary> ## Get /api/tecnicos :heavy_check_mark: </summary>
+  
+  
+
 ### **recebe**
 > nada
 ### **devolve**
@@ -77,8 +108,19 @@
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getAll/noToken.PNG)
 ##### db Down
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getAll/dbDown.PNG)
-## Get /api/tecnicos/:id :heavy_check_mark:
+  
+
+ 
+ </details>
+    
+ 
+  
+
 <details>
+  
+  <summary> ## Get /api/tecnicos/:id :heavy_check_mark:</summary>
+  
+   
 ### **recebe**
 > nada
 ### **devolve**
@@ -89,3 +131,6 @@
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/DBDown.PNG)
 ##### No Token
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/NoToken.PNG)
+
+   </details>
+  
