@@ -22,16 +22,17 @@
   
   ## -DB down :x:
   
-  <details> Imagem
+  <details> 
   
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
 
   </details>
  </details>
+##  Get /api/users/:id :heavy_check_mark: 
 
 <details>
   
-  <summary> Get /api/users/:id :heavy_check_mark: </summary>
+  <summary>Click me</summary>
   
    # **recebe** 
     > id
@@ -72,11 +73,11 @@
 
  </details>
  
-## --------------------------------------------------------------------------------------------
+## Post /auth/login :heavy_check_mark:
  
 <details>
   
-  <summary> Post /auth/login :heavy_check_mark: </summary>
+  <summary> Click me </summary>
   
   # **recebe**
   > login , password
@@ -112,11 +113,11 @@
 
 </details>
 
-## --------------------------------------------------------------------------------------------
+## Post /auth/register :heavy_check_mark:
 
 <details>
   
-  <summary> Post /auth/register :heavy_check_mark: </summary>
+  <summary> Click me </summary>
   
   # **recebe**
   > login,password,email,roleFK
@@ -168,11 +169,12 @@
   </details>
   
  </details>
-## --------------------------------------------------------------------------------------------
+
+## Post /api/users/:id/edit :heavy_check_mark:
 
 <details> 
     
-  <summary> Post /api/users/:id/edit :heavy_check_mark: </summary>
+  <summary> Click me </summary>
   
   # **recebe**
   >id,login,email,roleFK
@@ -228,9 +230,11 @@
  
  ## Tecnicos
  
+ ## Get /api/tecnicos :heavy_check_mark:
+ 
  <details> 
     
-  <summary> Get /api/tecnicos :heavy_check_mark: </summary>
+  <summary> Click me </summary>
   
   # **recebe**
   > nada
@@ -311,9 +315,12 @@
 
 
 </details>
+
+## Post /api/tecnicos/:id/edit :heavy_check_mark:
+
 <details>
 
-  <summary> Post /api/tecnicos/:id/edit :heavy_check_mark:</summary>
+  <summary> Click me </summary>
     
   # **recebe**
   > nome , habilitacoes , nivelProfissional
@@ -357,9 +364,12 @@
   
    
   </details>
+ 
+ ## Post /api/tecnicos/create :heavy_check_mark:
+  
 <details>
  
-  <summary> Post /api/tecnicos/create :heavy_check_mark:</summary>
+  <summary> Click me </summary>
    
   # **recebe**
   > nome , habilitacoes , nivelProfissional , userFK
@@ -413,9 +423,12 @@
 </details>
    
 ## Fichas Registo Identificação
+
+##   Get /api/fichaRegistoIdentificacao :heavy_check_mark:
+
  <details>
  
-  <summary> Get /api/fichaRegistoIdentificacao :heavy_check_mark:</summary>
+  <summary> Click me </summary>
   
   # **recebe**
   > nada
@@ -453,9 +466,12 @@
   
   </details>  
 </details>
+
+##  POST /api/fichaRegistoIdentificacao/create :heavy_check_mark:
+
 <details>
  
-  <summary> POST /api/fichaRegistoIdentificacao/create :heavy_check_mark:</summary>
+  <summary>Click me</summary>
   
   # **recebe**
   > visible , designacao , processoLCRM , processoCEARC , dataEntrada , dataConclusao , coordenacao , direcaoTecnica , interessadoFK , dataEntrega, array de tecnicos
@@ -519,9 +535,12 @@
 
   
 </details>
+
+## POST /api/fichaRegistoIdentificacao/:id/edit :heavy_check_mark:
+
 <details>
  
-  <summary> POST /api/fichaRegistoIdentificacao/:id/edit :heavy_check_mark:</summary>
+  <summary>Click me</summary>
   
    # **recebe**
   > id,visible , designacao , processoLCRM , processoCEARC , dataEntrada , dataConclusao , coordenacao , direcaoTecnica , interessadoFK , dataEntrega, array de tecnicos
