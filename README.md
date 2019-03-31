@@ -19,8 +19,6 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
 
   </details>
-  
- 
   ## -DB down :x:
   
   <details>
@@ -28,11 +26,7 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
 
   </details>
-
-  
  </details>
- 
-## --------------------------------------------------------------------------------------------
 
 <details>
   
