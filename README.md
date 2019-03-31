@@ -2,6 +2,7 @@
 <details>
   
   <summary> Get /api/users :heavy_check_mark: </summary>
+  
   ## Get /api/users :heavy_check_mark:
   ### **recebe** 
   > Nada
