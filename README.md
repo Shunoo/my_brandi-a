@@ -8,6 +8,7 @@
 <details>
   
   <summary> Get /api/users :heavy_check_mark: </summary>
+  
   # **recebe**
    > Nada
   # **devolve**
