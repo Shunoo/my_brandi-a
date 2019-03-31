@@ -99,6 +99,7 @@
 <details>
   
   <summary> Get /api/tecnicos/:id :heavy_check_mark:</summary>
+  
   ### **recebe**
   > nada
   ### **devolve**
