@@ -2,8 +2,7 @@
 <details>
   
   <summary> Get /api/users :heavy_check_mark: </summary>
-  
-  
+ 
   ### **devolve**
   #### Sucess :white_check_mark:
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
@@ -15,6 +14,7 @@
 <details>
   
   <summary> Get /api/users/:id </summary>
+  
    ### **recebe** 
     > id
   ### **devolve:**
@@ -32,6 +32,7 @@
 <details>
   
   <summary> Post /auth/login :heavy_check_mark: </summary>
+  
   ### **recebe**
   >id
   ### **devolve**
@@ -47,6 +48,7 @@
 <details>
   
   <summary> Post /auth/register :heavy_check_mark: </summary>
+  
   ### **recebe**
   > login,password,email,roleFK
   ### **devolve**
@@ -66,6 +68,7 @@
 <details> 
     
   <summary> Post /api/users/:id/edit :heavy_check_mark: </summary>
+  
   ### **recebe**
   >id,login,email,roleFK
   ### **devolve**
