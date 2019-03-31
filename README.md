@@ -235,9 +235,8 @@
   
  </details>
 
-# Tecnicos
-
 # ----------------------------------------------
+# Tecnicos
 
  ## Get /api/tecnicos :heavy_check_mark:
  
@@ -437,9 +436,8 @@
   </details>
 </details>
 
-# Fichas Registo Identificação
-
 # ----------------------------------------------
+# Fichas Registo Identificação
 ##   Get /api/fichaRegistoIdentificacao :heavy_check_mark:
 
  <details>
