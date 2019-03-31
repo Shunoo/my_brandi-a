@@ -22,7 +22,7 @@
   
   ## -DB down :x:
   
-  <details>
+  <details> Imagem
   
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
 
