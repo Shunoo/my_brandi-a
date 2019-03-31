@@ -13,7 +13,7 @@
  
 <details>
   
-  <summary> Get /api/users/:id </summary>
+  <summary> Get /api/users/:id :heavy_check_mark: </summary>
   
    ### **recebe** 
     > id
