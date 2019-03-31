@@ -5,7 +5,7 @@
 # Webservices da api
 > Basta clicar na imagem para vizualizar o que as rotas retornam
 # Utilizadores
-# ----------------------------------------------
+
 ## Get /api/users :heavy_check_mark:
 
 <details>
@@ -234,10 +234,11 @@
 
   
  </details>
-# ---------------------------------------------- 
- # Tecnicos
+
+# Tecnicos
 
 # ----------------------------------------------
+
  ## Get /api/tecnicos :heavy_check_mark:
  
  <details> 
@@ -436,7 +437,6 @@
   </details>
 </details>
 
-# ----------------------------------------------
 # Fichas Registo Identificação
 
 # ----------------------------------------------
