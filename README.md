@@ -30,7 +30,8 @@
 
   
  </details>
- 
+## -----------------------------------------------------------------------------------------------------
+
 <details>
   
   <summary> Get /api/users/:id :heavy_check_mark: </summary>
@@ -73,6 +74,9 @@
 
 
  </details>
+ 
+## ----------------------------------------------------------------------------------------------------- 
+ 
 <details>
   
   <summary> Post /auth/login :heavy_check_mark: </summary>
@@ -110,6 +114,8 @@
   </details>
 
 </details>
+
+## -----------------------------------------------------------------------------------------------------
 <details>
   
   <summary> Post /auth/register :heavy_check_mark: </summary>
@@ -164,7 +170,8 @@
   </details>
   
  </details>
- 
+## -----------------------------------------------------------------------------------------------------
+
 <details> 
     
   <summary> Post /api/users/:id/edit :heavy_check_mark: </summary>
