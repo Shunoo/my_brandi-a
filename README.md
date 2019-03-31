@@ -5,7 +5,7 @@
 # Webservices da api
 > Basta clicar na imagem para vizualizar o que as rotas retornam
 # Utilizadores
-
+#----------------------------------------------
 ## Get /api/users :heavy_check_mark:
 
 <details>
@@ -31,6 +31,7 @@
   </details>
  </details>
  
+#---------------------------------------------- 
 ##  Get /api/users/:id :heavy_check_mark: 
 
 <details>
@@ -75,7 +76,8 @@
 
 
  </details>
- 
+
+#----------------------------------------------
 ## Post /auth/login :heavy_check_mark:
  
 <details>
@@ -116,6 +118,7 @@
 
 </details>
 
+#----------------------------------------------
 ## Post /auth/register :heavy_check_mark:
 
 <details>
@@ -173,6 +176,7 @@
   
  </details>
 
+#----------------------------------------------
 ## Post /api/users/:id/edit :heavy_check_mark:
 
 <details> 
@@ -232,7 +236,8 @@
  </details>
  
  # Tecnicos
- 
+
+#----------------------------------------------
  ## Get /api/tecnicos :heavy_check_mark:
  
  <details> 
@@ -281,6 +286,7 @@
 
  </details>
  
+ #----------------------------------------------
  ## Get /api/tecnicos/:id :heavy_check_mark:
  
 <details>
@@ -322,6 +328,7 @@
 
 </details>
 
+#----------------------------------------------
 ## Post /api/tecnicos/:id/edit :heavy_check_mark:
 
 <details>
@@ -371,6 +378,7 @@
    
   </details>
  
+ #----------------------------------------------
  ## Post /api/tecnicos/create :heavy_check_mark:
   
 <details>
@@ -427,9 +435,11 @@
   
   </details>
 </details>
-   
+
+#----------------------------------------------
 # Fichas Registo Identificação
 
+#----------------------------------------------
 ##   Get /api/fichaRegistoIdentificacao :heavy_check_mark:
 
  <details>
@@ -473,6 +483,7 @@
   </details>  
 </details>
 
+#----------------------------------------------
 ##  POST /api/fichaRegistoIdentificacao/create :heavy_check_mark:
 
 <details>
@@ -542,6 +553,7 @@
   
 </details>
 
+#----------------------------------------------
 ## POST /api/fichaRegistoIdentificacao/:id/edit :heavy_check_mark:
 
 <details>
