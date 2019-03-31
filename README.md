@@ -11,17 +11,17 @@
   
   <summary> Click me </summary>
   
-  ### **recebe**
+  # **recebe**
    > Nada
-  ### **devolve**
-  #### -Sucess :white_check_mark:
+  # **devolve**
+  ## -Sucess :white_check_mark:
   <details>
   
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
 
   </details>
   
-  #### -DB down :x:
+  ## -DB down :x:
   
   <details> 
   
@@ -279,9 +279,12 @@
 
 
  </details>
+ 
+ ### Get /api/tecnicos/:id :heavy_check_mark:
+ 
 <details>
   
-  <summary> Get /api/tecnicos/:id :heavy_check_mark:</summary>
+  <summary>Click me</summary>
   
   # **recebe**
   > nada
