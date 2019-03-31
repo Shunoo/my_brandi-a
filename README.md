@@ -28,24 +28,16 @@ React | Nodejs | Postman | MySQL |
 ## 3- node server.js - para iniciar o servidor
 # Webservices da api
 > Basta clicar na imagem para vizualizar o que as rotas retornam
-## Get /api/users :heavy_check_mark:
-### **recebe** 
-> Nada
+## Get /api/tecnicos/:id :heavy_check_mark:
+<details>
+### **recebe**
+> nada
 ### **devolve**
 #### Sucess :white_check_mark:
-![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
-#### DB down :x:
-![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
-## Get /api/users/:id
-### **recebe:**
-> id
-### **devolve:**
-#### Sucess :white_check_mark:
-![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated.PNG)
-#### Unsuccess :x:
-##### DBDown
-![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/DBDown.PNG)
-##### NotAuthenticated
-![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/NotAuthenticated.PNG)
-##### diferentID
-![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated_ID_diferente.PNG)
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/Sucess.PNG)
+#### Unsucess :x:
+##### DB Down
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/DBDown.PNG)
+##### No Token
+![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/NoToken.PNG)
+ </details>
