@@ -165,3 +165,63 @@
   
    </details>
    
+## Fichas Registo Identificação
+ <details>
+ 
+  <summary> Get /api/fichaRegistoIdentificacao :heavy_check_mark:</summary>
+  
+  # **recebe**
+  > nada
+  # **devolve**
+  ## -Sucess :white_check_mark:
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/Authenticated_Sucess.PNG)
+  ## -Unsucess :x:
+  ### --No Token
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/NotAuthenticated.PNG)
+  ### --ficha nao existente
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/ficha-nao-existente.PNG)
+  ### --DB Down
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/DBDown.PNG)
+   
+</details>
+<details>
+ 
+  <summary> POST /api/fichaRegistoIdentificacao/create :heavy_check_mark:</summary>
+  
+  # **recebe**
+  > visible , designacao , processoLCRM , processoCEARC , dataEntrada , dataConclusao , coordenacao , direcaoTecnica , interessadoFK , dataEntrega, array de tecnicos
+  # **devolve**
+  ## -Sucess :white_check_mark:
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/Registed.PNG)
+  ## -Unsucess :x:
+  ### --No Token
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/noToken.PNG)
+  ### --Error datas
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/error%20datas.PNG)
+  ### --DB Down
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/dbDown.PNG)
+   ### --Error foreignkey interesados
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/erro%20foreign%20key%20interessado.PNG)
+   ### --Error foreignkey processos
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/foreign%20key%20processos.PNG)
+  
+</details>
+<details>
+ 
+  <summary> POST /api/fichaRegistoIdentificacao/:id/edit :heavy_check_mark:</summary>
+  
+   # **recebe**
+  > id,visible , designacao , processoLCRM , processoCEARC , dataEntrada , dataConclusao , coordenacao , direcaoTecnica , interessadoFK , dataEntrega, array de tecnicos
+  # **devolve**
+  ## -Sucess :white_check_mark:
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/Updated.PNG)
+  ## -Unsucess :x:
+  ### --No Token
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/NoToken.PNG)
+  ### --Erro num dos Campos
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/Erro%20num%20dos%20campos.PNG)
+  ### --DB Down
+   ![alt text](https://github.com/iptomar/Brandi-2018-2019-Turma-A/blob/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/DBDown.PNG)
+
+  
+</details>  
