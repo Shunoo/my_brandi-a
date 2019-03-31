@@ -1,9 +1,7 @@
 # A collapsible section with markdown
 <details>
   
-  <summary style="font-weight:bold font-size:35px"> Get /api/users :heavy_check_mark: </summary>
-  
-  ## Get /api/users :heavy_check_mark:
+  <summary> Get /api/users :heavy_check_mark: </summary>
   ### **recebe** 
   > Nada
   ### **devolve**
@@ -11,12 +9,12 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
   #### DB down :x:
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
-  
  </details>
  
 <details>
   
-  <summary> ## Get /api/users/:id </summary>
+  <summary> Get /api/users/:id </summary>
+  
     ### **recebe:**
 > id
 ### **devolve:**
@@ -34,7 +32,7 @@
 
 <details>
   
-  <summary>  ## Post /auth/login :heavy_check_mark: </summary>
+  <summary> Post /auth/login :heavy_check_mark: </summary>
  
 ### **recebe**
 >id
@@ -51,7 +49,7 @@
 
 <details>
   
-  <summary> ## Post /auth/register :heavy_check_mark: </summary>
+  <summary> Post /auth/register :heavy_check_mark: </summary>
  
   
 
@@ -74,7 +72,7 @@
  
 <details> 
     
-  <summary> ## Post /api/users/:id/edit :heavy_check_mark: </summary>
+  <summary> Post /api/users/:id/edit :heavy_check_mark: </summary>
   
   
 ### **recebe**
@@ -94,7 +92,7 @@
  
  <details> 
     
-  <summary> ## Get /api/tecnicos :heavy_check_mark: </summary>
+  <summary> Get /api/tecnicos :heavy_check_mark: </summary>
   
   
 
@@ -118,7 +116,7 @@
 
 <details>
   
-  <summary> ## Get /api/tecnicos/:id :heavy_check_mark:</summary>
+  <summary> Get /api/tecnicos/:id :heavy_check_mark:</summary>
   
    
 ### **recebe**
