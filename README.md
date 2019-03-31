@@ -5,6 +5,7 @@
 # Webservices da api
 > Basta clicar na imagem para vizualizar o que as rotas retornam
 # Utilizadores
+
 ### Get /api/users :heavy_check_mark:
 
 <details>
