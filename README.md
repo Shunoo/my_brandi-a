@@ -89,7 +89,9 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/DuplicateInputs.PNG)
   
  </details>
+ 
  ## Tecnicos
+ 
  <details> 
     
   <summary> Get /api/tecnicos :heavy_check_mark: </summary>
