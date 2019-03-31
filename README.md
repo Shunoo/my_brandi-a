@@ -2,6 +2,7 @@
 <details>
   
   <summary> Get /api/users :heavy_check_mark: </summary>
+  
   ### **recebe** 
   > Nada
   ### **devolve**
@@ -9,14 +10,15 @@
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
   #### DB down :x:
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
+  
  </details>
  
 <details>
   
   <summary> Get /api/users/:id </summary>
-  
+ 
     ### **recebe:**
-> id
+    > id
 ### **devolve:**
 #### Sucess :white_check_mark:
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated.PNG)
