@@ -40,7 +40,7 @@
   <summary> Post /auth/login :heavy_check_mark: </summary>
   
   ### **recebe**
-  >id
+  > login , password
   ### **devolve**
   #### Sucess :white_check_mark:
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/LoginSucess.PNG)
