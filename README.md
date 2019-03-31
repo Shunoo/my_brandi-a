@@ -3,7 +3,7 @@
 ## 2- npm install - para instalar os módulos
 ## 3- node server.js - para iniciar o servidor
 # Webservices da api
-> Basta clicar na imagem para vizualizar o que as rotas retornam
+> Basta clicar na imagem para visualizar o que as rotas retornam
 # Utilizadores
 
 ## Get /api/users :heavy_check_mark:
