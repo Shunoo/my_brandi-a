@@ -1,7 +1,7 @@
 # A collapsible section with markdown
 <details>
   
-  <summary style="font-weight:bold"> Get /api/users :heavy_check_mark: </summary>
+  <summary style="font-weight:bold font-size:35px"> Get /api/users :heavy_check_mark: </summary>
   
   ## Get /api/users :heavy_check_mark:
   ### **recebe** 
