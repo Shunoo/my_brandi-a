@@ -2,7 +2,7 @@
 <details>
   
   ## **recebe**
-  > nada
+  > **nada**
   ### **devolve**
  #### Sucess :white_check_mark:
 ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/Sucess.PNG)
