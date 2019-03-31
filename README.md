@@ -4,8 +4,9 @@
 ## 3- node server.js - para iniciar o servidor
 # Webservices da api
 > Basta clicar na imagem para vizualizar o que as rotas retornam
-## Utilizadores
-### Get /api/users :heavy_check_mark:
+# Utilizadores
+## Get /api/users :heavy_check_mark:
+
 <details>
   
   <summary> Click me </summary>
@@ -28,6 +29,7 @@
 
   </details>
  </details>
+ 
 ##  Get /api/users/:id :heavy_check_mark: 
 
 <details>
@@ -228,7 +230,7 @@
   
  </details>
  
- ## Tecnicos
+ # Tecnicos
  
  ## Get /api/tecnicos :heavy_check_mark:
  
@@ -422,7 +424,7 @@
   </details>
 </details>
    
-## Fichas Registo Identificação
+# Fichas Registo Identificação
 
 ##   Get /api/fichaRegistoIdentificacao :heavy_check_mark:
 
