@@ -13,9 +13,21 @@
    > Nada
   # **devolve**
   ## -Sucess :white_check_mark:
+  <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllusers_sucess.PNG)
+
+  </details>
+  
+ 
   ## -DB down :x:
+  
+  <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GETUsers/getAllUsers_dbDown.PNG)
+
+  </details>
+
   
  </details>
  
@@ -35,11 +47,30 @@
 
   ## -Unsuccess :x:
   ### --DBDown
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/DBDown.PNG)
+  
+  <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/DBDown.PNG)
+    
+  </details>
+  
+
   ### --NotAuthenticated
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/NotAuthenticated.PNG)
+  <details>
+  
+ ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/NotAuthenticated.PNG)
+ 
+  </details>
+ 
   ### --diferentID
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated_ID_diferente.PNG)
+  
+   <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/GetSingleUser/getSingleUserDetails_Authenticated_ID_diferente.PNG)
+ 
+  </details>
+  
+
 
  </details>
 <details>
@@ -50,12 +81,33 @@
   > login , password
   # **devolve**
   ## -Sucess :white_check_mark:
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/LoginSucess.PNG)
+  
+   <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/LoginSucess.PNG)
+ 
+  </details>
+  
+  
+ 
   ## -Unsucess :x:
   ### --Login not valid
+  
+  <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/LoginNotValid.PNG)
+ 
+  </details>
+  
+  
+
   ### --DB Down
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/NoDatabaseConnection.PNG)
+  
+   <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/Login/NoDatabaseConnection.PNG)
+   
+  </details>
 
 </details>
 <details>
@@ -66,18 +118,53 @@
   > login,password,email,roleFK
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+   <details>
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_authenticated_sucess.PNG)
+   
+  </details>
+
   ## -Unsucess :x:
   ### --Field Error
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_authenticated_emailNotValid.PNG)
-  ### --Not Authenticated
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_Notauthenticated.PNG)
-  ### --No Permissions
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_NoPermissions.PNG)
-  ### --DB Down
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/NoDatabaseConnection.PNG)
+  
+  <details>
 
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_authenticated_emailNotValid.PNG)
+   
+  </details>
+  
+  ### --Not Authenticated
+  
+   <details>
+
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_Notauthenticated.PNG)
+   
+  </details>
+  
+ 
+  ### --No Permissions
+  
+ <details>
+
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/registerUser_NoPermissions.PNG)
+   
+  </details>
+  
+  
+  
+
+  ### --DB Down
+  
+  
+   <details>
+
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/RegisterUser/NoDatabaseConnection.PNG)
+   
+  </details>
+  
  </details>
+ 
 <details> 
     
   <summary> Post /api/users/:id/edit :heavy_check_mark: </summary>
@@ -86,14 +173,51 @@
   >id,login,email,roleFK
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+  <details>
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/Sucess_Authenticated.PNG)
+  
+  </details>
+  
+  
+
   ## -Unsucess :x:
   ### --No Permission
+  
+  <details>
+
+   
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/NotAuthorized.PNG)
+  
+  </details>
+
   ### --Not Authenticated
+  
+  <details>
+
+   
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/NotAuthenticated.PNG)
+  
+  </details>
+
+  
+  
+  
   ### --Duplicate Inputs
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/DuplicateInputs.PNG)
+  
+  
+   <details>
+
+   
+
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/utilizadores/changeUser/DuplicateInputs.PNG)
+  
+  </details>
+
+  
+
   
  </details>
  
@@ -107,12 +231,41 @@
   > nada
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+  <details>
+
+   
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getAll/getTecnicos.PNG)
+  
+  </details>
+  
+  
+  
   ## -Unsucess :x:
   ### -no Token
+  
+   <details>
+
+   
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getAll/noToken.PNG)
+  
+  </details>
+  
+  
+
   ### -db Down
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getAll/dbDown.PNG)
+  
+   <details>
+
+   
+
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getAll/dbDown.PNG)
+  
+  </details>
+  
+
 
  </details>
 <details>
@@ -123,12 +276,34 @@
   > nada
   # **devolve**
   ## -Sucess :white_check_mark:
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/Sucess.PNG)
+  
+  <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/Sucess.PNG)
+  
+  </details>
+  
+  
+  
   ## -Unsucess :x:
   ### --DB Down
+  
+   <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/DBDown.PNG)
+  
+  </details>
+  
+
   ### --No Token
+  
+   <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/getTecnicoID/NoToken.PNG)
+  
+  </details>
+  
+
 
 </details>
 <details>
@@ -139,14 +314,42 @@
   > nome , habilitacoes , nivelProfissional
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+   <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/Update.PNG)
+  
+  </details>
+  
+
   ## -Unsucess :x:
   ### --Erro Campo
+  
+   <details>
+  
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/erro%20campo.PNG)
+  
+  </details>
+  
+ 
   ### --DB Down
+  
+   <details>
+  
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/DBDown.PNG)
+  
+  </details>
+  
+
   ### --Not Authenticated
+  
+  <details>
+  
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/updateTecnico/NotAuthenticated.PNG)
+  
+  </details>
+  
    
   </details>
 <details>
@@ -157,18 +360,52 @@
   > nome , habilitacoes , nivelProfissional , userFK
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+  <details>
+  
+
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/Sucess.PNG)
+  
+  </details>
+  
+
   ## -Unsucess :x:
   ### --Field Error
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/FieldError.PNG)
-  ### --No Token
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/NoToken.PNG)
-  ### --FK Error
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/FKError.PNG)
-  ### --DB Down
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/DBDown.PNG)
   
-   </details>
+  <details>
+  
+
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/FieldError.PNG)
+  
+  </details>
+  
+   
+  ### --No Token
+  
+  <details>
+  
+
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/NoToken.PNG)
+  
+  </details>
+  
+ 
+  ### --FK Error
+  
+  <details>
+ 
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/FKError.PNG)
+  
+  </details>
+  
+  ### --DB Down
+  
+  <details>
+ 
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/tecnicos/createTecnico/DBDown.PNG)
+  
+  </details>
+</details>
    
 ## Fichas Registo Identificação
  <details>
@@ -179,15 +416,37 @@
   > nada
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+  <details>
+ 
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/Authenticated_Sucess.PNG)
+  
+  </details>
+
   ## -Unsucess :x:
   ### --No Token
+  
+  <details>
+ 
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/NotAuthenticated.PNG)
+  
+  </details>
+  
   ### --ficha nao existente
+  
+  <details>
+
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/ficha-nao-existente.PNG)
+  
+  </details>
+  
   ### --DB Down
+  
+  <details>
+
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/getAllFichas/DBDown.PNG)
-   
+  
+  </details>  
 </details>
 <details>
  
@@ -197,18 +456,62 @@
   > visible , designacao , processoLCRM , processoCEARC , dataEntrada , dataConclusao , coordenacao , direcaoTecnica , interessadoFK , dataEntrega, array de tecnicos
   # **devolve**
   ## -Sucess :white_check_mark:
-  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/Registed.PNG)
+  
+  
+   <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/Registed.PNG)
+  
+  </details>  
+  
+  
+
   ## -Unsucess :x:
   ### --No Token
+  
+  <details>
+  
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/noToken.PNG)
+  
+  </details>  
+  
+  
+ 
   ### --Error datas
+  
+   <details>
+  
+  
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/error%20datas.PNG)
+  
+  </details>  
+
   ### --DB Down
+  
+   <details>
+  
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/dbDown.PNG)
+  
+  </details>  
+
    ### --Error foreignkey interesados
+   
+   <details>
+ 
    ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/erro%20foreign%20key%20interessado.PNG)
+   
+  </details>  
+
+
    ### --Error foreignkey processos
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/foreign%20key%20processos.PNG)
+   
+ <details>
+ 
+  ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/create%20ficha/foreign%20key%20processos.PNG)
+   
+  </details>  
+   
+
   
 </details>
 <details>
@@ -219,14 +522,38 @@
   > id,visible , designacao , processoLCRM , processoCEARC , dataEntrada , dataConclusao , coordenacao , direcaoTecnica , interessadoFK , dataEntrega, array de tecnicos
   # **devolve**
   ## -Sucess :white_check_mark:
+  
+   <details>
+ 
   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/Updated.PNG)
+  
+  </details>  
+  
+  
+
   ## -Unsucess :x:
   ### --No Token
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/NoToken.PNG)
-  ### --Erro num dos Campos
-   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/Erro%20num%20dos%20campos.PNG)
-  ### --DB Down
-   ![alt text](https://github.com/iptomar/Brandi-2018-2019-Turma-A/blob/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/DBDown.PNG)
-
   
+   <details>
+ 
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/NoToken.PNG)
+  
+  </details> 
+  
+
+  ### --Erro num dos Campos
+  
+    
+   <details>
+  
+   ![alt text](https://raw.githubusercontent.com/iptomar/Brandi-2018-2019-Turma-A/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/Erro%20num%20dos%20campos.PNG)
+  
+  </details>
+  ### --DB Down
+  
+   <details>
+  
+   ![alt text](https://github.com/iptomar/Brandi-2018-2019-Turma-A/blob/master/Server/postman_screenshots/fichaRegistoIdentificacao/updateFicha/DBDown.PNG)
+     
+  </details> 
 </details>  
